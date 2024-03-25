@@ -132,13 +132,31 @@ a.dropdown-item {
   transform: translate(-50%,-50%);
 }
 
-.text-block {
+.main-text {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -10%);
+  width: 60%;
+  height: 200px;
+
+  .btn-quick{
+    position: relative;
+    opacity: 0;
+    transition: 0.4s;
+    top: -20px;
+  }  
+}
+
+.contact-text {
+  letter-spacing: .15rem;
+  font-family: "Playfair Display", sans-serif;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   width: 60%;
   height: 200px;
 
