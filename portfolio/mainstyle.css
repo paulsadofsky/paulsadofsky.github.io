@@ -160,6 +160,7 @@ a.dropdown-item {
   transform: translate(-50%, 90%);
   width: 60%;
   height: 200px;
+  color: invert(1) !important;
 
   .btn-quick{
     position: relative;
