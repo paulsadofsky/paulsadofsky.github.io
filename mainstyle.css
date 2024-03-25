@@ -136,7 +136,7 @@
 
   .bg-video {
     position: absolute;
-      top: -150px;
+      top: -100px;
       right: 0;
       bottom: 0;
       z-index: -1;
