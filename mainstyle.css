@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .text-block {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
@@ -10,11 +14,22 @@
     animation-fill-mode: forwards;
 }
 
+.navbar-brand {
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: .13rem;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  font-family: "PT Serif", sans-serif;
+  letter-spacing: .13rem;
+  font-weight: 500;
+}
+
 nav {
   background-color: #29292b00;
   opacity: 1;
   filter: alpha(opacity=100);
-  font-family: "Poppins", sans-serif;
 }
 
 @keyframes fadeInAnimation {
