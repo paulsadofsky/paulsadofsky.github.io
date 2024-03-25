@@ -1,95 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-      />
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
 
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
-      <!-- (Optional) Latest compiled and minified JavaScript translation files -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/i18n/defaults-*.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta2/dist/js/i18n/defaults-*.min.js"></script>
 
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"
-      ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"></script>
 
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-      <title>Welcome!</title>
+    <title>Welcome!</title>
 
-      <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="mainstyle.css">
+  </head>
 
-    </head>
-
-    <body style="overflow: hidden;">
-
-      <video autoplay loop muted plays-inline class="bg-video">
-        <source src="images/HDblob.mp4" type="video/mp4">
-      </video>
-
-        <nav class="p-2 navbar navbar-expand-lg navbar-dark" style="margin-top: 10px;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <a class="navbar-brand" href="/" style="margin-left: 20px;">
-              Paul Sadofsky
-            </a>
-
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <div class="navbar-nav">
-                    <a class="nav-itel nav-link" id="home" href="/">Home</a>
-                    <div class="dropdown show">
-                      <a class="nav-link dropdown-toggle" onclick="location.href='/projects'" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/projects/SURI">Undergraduate Research Project</a>
-                        <a class="dropdown-item" href="/projects/GNPD">GNPD Budgetting Database/Website</a>
-                        <a class="dropdown-item" href="/projects/RPS">Rock, Paper, Scissors!</a>
-                        <!-- <a class="dropdown-item" href="/projects/minecraft">Minecraft Multiplier</a> -->
-                      </div>
-                    </div>
-                    <a class="nav-itel nav-link" id="contact" href="/contact"><span>Contact</span></a>
+  <body style="overflow: hidden;">
+    <video autoplay loop muted plays-inline class="bg-video">
+      <source src="images/HDblob.mp4" type="video/mp4">
+    </video>
+      <nav class="p-2 navbar navbar-expand-lg navbar-dark" style="margin-top: 10px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/" style="margin-left: 20px;">
+          Paul Sadofsky
+        </a>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div class="navbar-nav">
+              <a class="nav-itel nav-link" id="home" href="/">Home</a>
+              <div class="dropdown show">
+                <a class="nav-link dropdown-toggle" onclick="location.href='/projects'" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Projects
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="/projects/SURI">Undergraduate Research Project</a>
+                  <a class="dropdown-item" href="/projects/GNPD">GNPD Budgetting Database/Website</a>
+                  <a class="dropdown-item" href="/projects/RPS">Rock, Paper, Scissors!</a>
                 </div>
-            </div>
-        </nav>
-
-            <div class="fade-content text-block" style="width: 30%; left: 34vw; height: 200px;">
-              <h1 class="display-5 nametitle" align="center">Paul Sadofsky</h1>
-              <h1 class="display-5 subtitle" align="center">Computer Engineer</h1>
-              <div class="container" align="center">
-
-                  <button onclick="location.href='portfolio/portfolio.html'" class="btn btn-lg btn-quick">Portfolio</button>&emsp;
-                  <button onclick="location.href='/contact'" class="btn btn-lg btn-quick">Contact</button>
-
-                  <br>
               </div>
-            </div>
-    </body>
+              <a class="nav-itel nav-link" id="contact" href="/contact"><span>Contact</span></a>
+          </div>
+        </div>
+      </nav>
+      <div class="fade-content text-block" style="width: 30%; left: 34vw; height: 200px;">
+        <h1 class="display-5 nametitle">Paul Sadofsky</h1>
+        <h1 class="display-5 subtitle">Computer Engineer</h1>
+        <div class="container">
+            <button onclick="location.href='portfolio/portfolio.html'" class="btn btn-lg btn-quick">Portfolio</button>&emsp;
+            <button onclick="location.href='/contact'" class="btn btn-lg btn-quick">Contact</button>
+            <br>
+        </div>
+      </div>
+  </body>
 </html>

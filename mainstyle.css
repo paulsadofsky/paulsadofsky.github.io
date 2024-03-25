@@ -148,8 +148,9 @@
   .nametitle {
     font-size: 60px;
     color: whitesmoke;
-    margin-top: 32vh;
     font-weight: 600;
+    text-align: center;
+    margin-top: 32vh;
   }
 
   .subtitle {
@@ -159,4 +160,9 @@
     margin-top: -10px;
     margin-bottom: 30px;
     font-weight: 400;
+    text-align: center;
+  }
+
+  .container {
+    text-align: center;
   }
