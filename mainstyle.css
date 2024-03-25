@@ -18,21 +18,19 @@ body {
   font-family: "Playfair Display", sans-serif !important;
   letter-spacing: .13rem;
   font-weight: 500;
-  margin-left: 20px;
   font-size: 30px;
 }
 
 .navbar-nav {
-  font-family: "PT Serif", sans-serif !important;
+  font-family: "PT Serif", sans-serif;
   letter-spacing: .13rem;
   font-weight: 500;
 }
 
 nav {
-  margin-top: 0px;
+  font-family: "PT Serif", sans-serif;
+  margin-left: 20px;
   background-color: #29292b00;
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 @keyframes fadeInAnimation {
