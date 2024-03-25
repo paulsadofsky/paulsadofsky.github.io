@@ -132,23 +132,6 @@ a.dropdown-item {
   transform: translate(-50%,-50%);
 }
 
-/* .bg-video {
-  position: absolute;
-  top: -80px;
-  left: 0 auto;
-  right: 0 auto;
-  bottom: auto;
-  z-index: -1;
-  zoom: 80%;
-} */
-
-/* @media (min-aspect-ration: 16/9) {
-  .bg-video {
-    width: 100%;
-    height: auto;
-  }
-} */
-
 .text-block {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;

@@ -58,14 +58,30 @@
         </div>
       </div>
     </nav>
-    <div class="fade-content text-block">
+    <div class="fade-content text-block main-text">
       <h1 class="display-5 nametitle">Paul Sadofsky</h1>
       <h1 class="display-5 subtitle">Computer Engineer</h1>
       <div class="container">
           <button onclick="location.href='/about'" class="btn btn-lg btn-quick">About Me</button>&emsp;
           <button onclick="location.href='/portfolio'" class="btn btn-lg btn-quick">Portfolio</button>&emsp;
-          <button onclick="location.href='/contact'" class="btn btn-lg btn-quick">Contact</button>
+          <button onclick="showContact();" class="btn btn-lg btn-quick">Contact</button>
+      </div>
+    </div>
+    <div class="fade-content text-block contact-text">
+      <h1 class="display-5 nametitle">Paul Sadofsky</h1>
+      <h1 class="display-5 subtitle">Computer Engineer</h1>
+      <div class="container">
+          <button onclick="location.href='/about'" class="btn btn-lg btn-quick">About Me</button>&emsp;
+          <button onclick="location.href='/portfolio'" class="btn btn-lg btn-quick">Portfolio</button>&emsp;
+          <button onclick="showContact();" class="btn btn-lg btn-quick">Contact</button>
       </div>
     </div>
   </body>
+
+  <script type="text/javascript">
+    function showContact(){
+      $('.main-text').hide();
+      $('.contact-text').show();
+    }
+  </script>
 </html>
