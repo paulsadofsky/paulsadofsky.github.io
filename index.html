@@ -71,21 +71,19 @@
       <h1 class="display-5 nametitle">Contact</h1>
       <h1 class="display-5 subtitle">Computer Engineer</h1>
       <div class="container">
-          <button onclick="showContact();" class="btn btn-lg btn-quick">Return</button>
+          <button onclick="removeContact();" class="btn btn-lg btn-quick">Return</button>
       </div>
     </div>
   </body>
 
   <script type="text/javascript">
     function showContact(){
-      if ($('.contact-text').attr('display') == 'none') {
-        $('.main-text').hide();
-        $('.contact-text').show();
-      }
-      else {
-        $('.main-text').show();
-        $('.contact-text').hide();
-      }
+      $('.main-text').hide();
+      $('.contact-text').show();
+    }
+    function removeContact(){
+      $('.main-text').show();
+      $('.contact-text').hide();
     }
   </script>
 </html>
