@@ -59,6 +59,7 @@ nav {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 100px;
   border-width: 3px;
+  margin-top: 20px;
   opacity: 0;
   border-color: whitesmoke;
   color: whitesmoke;
@@ -138,7 +139,7 @@ a.dropdown-item {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -10%);
+  transform: translate(-50%, 100%);
   width: 60%;
   height: 200px;
 
@@ -154,9 +155,9 @@ a.dropdown-item {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
   position: relative;
-  top: 40%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 90%);
   width: 60%;
   height: 200px;
 
@@ -190,7 +191,6 @@ a.dropdown-item {
   color: whitesmoke;
   font-weight: 600;
   text-align: center;
-  margin-top: 32vh;
 }
 
 .subtitle {
@@ -198,7 +198,7 @@ a.dropdown-item {
   color: whitesmoke;
   opacity: 80%;
   margin-top: -5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: 400;
   text-align: center;
 }
