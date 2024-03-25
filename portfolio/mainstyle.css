@@ -189,15 +189,14 @@ a.dropdown-item {
 
 .nametitle {
   font-size: 80px;
-  color: whitesmoke;
+  color: gray;
   font-weight: 600;
   text-align: center;
 }
 
 .subtitle {
   font-size: 30px;
-  color: whitesmoke;
-  opacity: 80%;
+  color: gray;
   margin-top: -5px;
   margin-bottom: 10px;
   font-weight: 400;
