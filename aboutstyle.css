@@ -1,6 +1,10 @@
 body {
   background-color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+:root {
+  color-scheme: dark;
 }
 
 .fade-content {
@@ -113,7 +117,7 @@ a.dropdown-item {
 }
 
 .video-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -128,7 +132,7 @@ a.dropdown-item {
   height: auto;
 
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -137,15 +141,19 @@ a.dropdown-item {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
   position: absolute;
-  left: 2%;
-  width: 30%;
-  top: -10%;
+  padding-left: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  left: 1%;
+  width: 70%;
+  top: 8%;
+  background-image: radial-gradient(hsla(0, 0%, 0%, 0.75), #00000000);
 
   .btn-quick{
     position: relative;
     opacity: 0;
     transition: 0.4s;
-    top: -20px !important;
+    top: -20px;
   }  
 }
 
@@ -171,7 +179,6 @@ a.dropdown-item {
   color: whitesmoke;
   font-weight: 600;
   text-align: left;
-  margin-top: 32vh;
 }
 
 .subtitle {
@@ -184,7 +191,23 @@ a.dropdown-item {
   text-align: left;
 }
 
+.bullet {
+  font-size: 20px;
+  color: hsla(0, 0%, 96%, 0.8);
+  opacity: 80%;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-weight: 400;
+  text-align: left;
+}
 
 .container {
   text-align: center;
+}
+
+.pitt-image {
+  position: absolute;
+  scale: 90%;
+  top: 60%;
 }
