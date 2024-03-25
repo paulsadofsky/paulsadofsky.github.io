@@ -31,7 +31,7 @@
   <body style="overflow: hidden;">
     <div class="video-container">
       <video autoplay loop muted plays-inline class="bg-video">
-        <source src="images/black_wave.mp4" type="video/mp4">
+        <source src="images/black_wave_compressed.mp4" type="video/mp4">
       </video>
     </div>
     <nav class="p-2 navbar navbar-expand-lg navbar-dark">
@@ -65,21 +65,23 @@
         </a>
       </div>
     </nav>
-    <div class="fade-content text-block main-text">
-      <h1 class="display-5 nametitle">Paul Sadofsky</h1>
-      <h1 class="display-5 subtitle">Computer Engineer</h1>
-      <div class="container">
-          <button onclick="location.href='/about'" class="btn btn-lg btn-quick">About Me</button>
-          <button onclick="location.href='/portfolio'" class="btn btn-lg btn-quick">Portfolio</button>
-          <button onclick="showContact();" class="btn btn-lg btn-quick">Contact</button>
+    <div class="mobile-container">
+      <div class="fade-content text-block main-text">
+        <h1 class="display-5 nametitle">Paul Sadofsky</h1>
+        <h1 class="display-5 subtitle">Computer Engineer</h1>
+        <div class="container">
+            <button onclick="location.href='/about'" class="btn btn-lg btn-quick">About Me</button>
+            <button onclick="location.href='/portfolio'" class="btn btn-lg btn-quick">Portfolio</button>
+            <button onclick="showContact();" class="btn btn-lg btn-quick">Contact</button>
+        </div>
       </div>
-    </div>
-    <div class="fade-content text-block contact-text" style="display: none;">
-      <h1 class="display-5 nametitle">Contact</h1>
-      <h1 class="display-5 subtitle">Email: sadofskypaul@gmail.com</h1>
-      <h1 class="display-5 subtitle">Phone: (516) 695-5663</h1>
-      <div class="container">
-          <button onclick="removeContact();" class="btn btn-lg btn-quick">Return</button>
+      <div class="fade-content text-block contact-text" style="display: none;">
+        <h1 class="display-5 nametitle">Contact</h1>
+        <h1 class="display-5 subtitle">Email: sadofskypaul@gmail.com</h1>
+        <h1 class="display-5 subtitle">Phone: (516) 695-5663</h1>
+        <div class="container">
+            <button onclick="removeContact();" class="btn btn-lg btn-quick">Return</button>
+        </div>
       </div>
     </div>
   </body>
