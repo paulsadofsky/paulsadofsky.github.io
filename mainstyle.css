@@ -154,7 +154,7 @@ a.dropdown-item {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
   position: relative;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 60%;
