@@ -18,6 +18,8 @@ body {
   font-family: "Playfair Display", sans-serif;
   letter-spacing: .13rem;
   font-weight: 500;
+  margin-left: 20px;
+  font-size: 30px;
 }
 
 .navbar-nav {
@@ -27,6 +29,7 @@ body {
 }
 
 nav {
+  margin-top: 0px;
   background-color: #29292b00;
   opacity: 1;
   filter: alpha(opacity=100);
