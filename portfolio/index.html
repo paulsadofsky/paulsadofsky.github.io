@@ -23,18 +23,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <title>Home</title>
+    <title>About Me</title>
 
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="portfolio.css">
   </head>
 
-  <body style="overflow: hidden;">
-    <div class="video-container">
+  <body>
+    <!-- <div class="video-container">
       <video autoplay loop muted plays-inline class="bg-video">
-        <source src="/images/spiral.mp4" type="video/mp4">
+        <source src="../images/purple_woosh.mp4" type="video/mp4">
       </video>
-    </div>
-    <!-- <nav class="p-2 navbar navbar-expand-lg navbar-dark">
+    </div> -->
+    <nav class="p-2 navbar navbar-expand-lg navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -54,18 +54,69 @@
                 <a class="dropdown-item" href="/portfolio/RPS">Rock, Paper, Scissors!</a>
               </div>
             </div>
-            <a class="nav-itel nav-link" id="contact" href="/#contact" onclick="showContact();"><span>Contact</span></a>
+            <a class="nav-itel nav-link" id="contact" href="/#contact"><span>Contact</span></a>
         </div>
+        &emsp;
+        <a class="navbar-brand" href="https://www.linkedin.com/in/paul-sadofsky/" style="margin-bottom: 10px;">
+          <img src="../images/linkedin.png" style="width: 30px;height: 30px;" class="d-inline-block align-middle" alt="linkedin logo">
+        </a>
       </div>
-    </nav> -->
-    <div class="fade-content text-block main-text">
-      <h1 class="display-5 nametitle">HIRE ME</h1>
-      <h1 class="display-5 subtitle">please</h1>
+    </nav>
+    <div class="fade-content text-block">
+      <h1 class="display-5 nametitle">Portfolio</h1>
+      <h1 class="display-5 subtitle">My Projects</h1>
       <!-- <div class="container">
-          <button onclick="location.href='/about'" class="btn btn-lg btn-quick">About Me</button>&emsp;
           <button onclick="location.href='/portfolio'" class="btn btn-lg btn-quick">Portfolio</button>&emsp;
-          <button class="btn btn-lg btn-quick">Contact</button>
+          <button onclick="location.href='/contact'" class="btn btn-lg btn-quick">Contact</button>
+          <br>
       </div> -->
+    </div>
+
+    <div class="project-images">
+      <div class="imgdiv proj1">
+        <a href="/portfolio/SURI">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">SURI Research</p>
+        </a>
+      </div>
+      <div class="imgdiv proj2">
+        <a href="/portfolio/GNPD">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">GNPD Database</p>
+        </a>
+      </div>
+      <div class="imgdiv proj3">
+        <a href="/portfolio/RPS">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">Rock, Paper, Scissors!</p>
+        </a>
+      </div>
+    </div>
+    <div class="project-images">
+      <div class="imgdiv proj4">
+        <a href="/portfolio/MC">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">Minecraft 3-bit Multiplier</p>
+        </a>
+      </div>
+      <div class="imgdiv proj5">
+        <a href="/portfolio/UHhhhhhh">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">UHhhhhhh</p>
+        </a>
+      </div>
+      <div class="imgdiv proj6">
+        <a href="/">
+          <img src="../images/cat-crop.gif">
+          <div class="overlay"></div>
+          <p class="image-txt">This Website</p>
+        </a>
+      </div>
     </div>
   </body>
 </html>
