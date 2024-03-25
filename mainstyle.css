@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", sans-serif !important;
   letter-spacing: .13rem;
   font-weight: 500;
   margin-left: 20px;
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-nav {
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT Serif", sans-serif !important;
   letter-spacing: .13rem;
   font-weight: 500;
 }
