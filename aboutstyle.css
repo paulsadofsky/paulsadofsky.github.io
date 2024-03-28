@@ -142,7 +142,7 @@ a.dropdown-item {
   letter-spacing: .15rem;
   font-family: "Playfair Display", sans-serif;
   position: absolute;
-  padding-left: 1%;
+  padding-left: 3%;
   padding-top: 5%;
   padding-bottom: 5%;
   left: 1%;
@@ -179,6 +179,7 @@ a.dropdown-item {
   color: whitesmoke;
   font-weight: 600;
   text-align: left;
+  margin-bottom: 5px;
 }
 
 .subtitle {
@@ -196,7 +197,7 @@ a.dropdown-item {
   color: hsla(0, 0%, 96%, 0.8);
   opacity: 80%;
   margin-top: -10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: 20px;
   font-weight: 400;
   text-align: left;
