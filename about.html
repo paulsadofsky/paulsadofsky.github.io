@@ -23,17 +23,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <title>About Me</title>
+    <title>Paul Sadofsky - About</title>
 
     <link rel="stylesheet" href="aboutstyle.css">
   </head>
 
   <body>
-    <div class="video-container">
-      <video autoplay loop muted plays-inline class="bg-video">
-        <source src="images/blue_orange_cloud.mp4" type="video/mp4">
-      </video>
-    </div>
     <nav class="p-2 navbar navbar-expand-lg navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -43,7 +38,7 @@
       </a>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div class="navbar-nav">
-            <a class="nav-itel nav-link" id="home" href="/about">About Me</a>
+            <a class="nav-itel nav-link" id="home" href="/about">About</a>
             <div class="dropdown show">
               <a class="nav-link dropdown-toggle" onclick="location.href='/portfolio'" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Portfolio
@@ -64,36 +59,97 @@
         </a>
       </div>
     </nav>
-    <div class="fade-content text-block">
-      <h1 class="display-5 nametitle">Education</h1>
-        <h1 class="display-5 subtitle">University of Pittsburgh</h1>
-          <h1 class="display-5 bullet">- B.S. in Computer Engineering (GPA: 3.8)</h1>
-          <h1 class="display-5 bullet">- Concentration in Integrated Circuit Design</h1>
-          <h1 class="display-5 bullet">- Certification in Quantum Science Information and Quantum Computing</h1>
-        <h1 class="display-5 subtitle">Korea Advanced Institute of Science and Technology (KAIST)</h1>
-          <h1 class="display-5 bullet">- Semester Exchange in Daejeon, South Korea</h1>
-      <br>
-      <h1 class="display-5 nametitle">Professional Skills</h1>
-        <h1 class="display-5 subtitle">Embedded Systems</h1>
-          <h1 class="display-5 bullet">- ARM Microcontroller Interfacing</h1>
-          <h1 class="display-5 bullet">- CPU Architecture</h1>
-          <h1 class="display-5 bullet">- Assembly Software Design</h1>
-        <h1 class="display-5 subtitle">Programming Skills</h1>
-          <h1 class="display-5 bullet">- Front-End Web Development</h1>
-          <h1 class="display-5 bullet">- SQL Database Development and Management</h1>
-          <h1 class="display-5 bullet">- OOP: C++, Java</h1>
-          <h1 class="display-5 bullet">- Other languages: Python, C, MATLAB</h1>
-          <h1 class="display-5 bullet">- Firmware: ARM Assembly</h1>
-          <h1 class="display-5 bullet">- Web Development: HTML, CSS, JavaScript, JQuery</h1>
-      <br>
-      <h1 class="display-5 nametitle">Interests in the Field</h1>
-        <h1 class="display-5 bullet">- Quantum Computing</h1>
-        <h1 class="display-5 bullet">- Optoelecrtonics</h1>
-        <h1 class="display-5 bullet">- Semiconductor Device Theory</h1>
-        <h1 class="display-5 bullet">- Graphics Processing</h1>
-      <br>
+
+    <div class="main-container">
+      <div class="main-gif-column">
+        <img src="images/paul-1.jpg" style="width: 465px; height: 620px;">
+      </div>
+      <div class="main-column">
+          <h1 style="font-size: 90px; font-family: 'Playfair Display', sans-serif !important;">About Me</h1>
+          <p class="main-text">_____________________</p>
+          <p class="main-text" style="font-size: 22px;  font-family: 'Playfair Display', sans-serif !important;">
+            Hi, I'm Paul, a passionate computer engineer with a strong background in FPGAs and microcontrollers,
+            and a deep interest in embedded systems, mobile hardware design, and quantum computing.
+            With over 3 years of hands-on experience, I specialize in designing and building innovative
+            solutions that bridge the gap between hardware and software.
+            <br><br>
+            I current pursuing my B.S. in Computer Engineering from the University of Pittsburgh,
+            where I am developing a solid foundation in relevant topics such as wireless communication, system microarchitecture, and embedded systems.
+            Over the years, I’ve had the opportunity to work on FPGA-based and microcontroller-based embedded systems, database structuring and management,
+            front-end web development, and my work has been driven by a commitment to building efficient, scalable, and reliable systems.
+          </p>
+      </div>
     </div>
 
-    <!-- <img class="pitt-image" src="images/pitt.jpg" alt="Pitt Campus"> -->
+    <section class="section-title">
+      <h1 style="font-size: 60px;">What I Do</h1>
+    
+      <div class="section-container">
+        <div class="section-column">
+            <h1 style="font-size: 30px">Embedded Systems</h1>
+            <p class="section-text">_____________________</p>
+            <p class="section-text">
+              Design, implement, and enhance embedded systems using FPGAs, microcontrollers, and development kits.
+            </p>
+        </div>
+        <div class="section-column">
+            <h1 style="font-size: 30px;">Microarchitectural Design</h1>
+            <p class="section-text">_____________________</p>
+            <p class="section-text">
+              Developing and optimizing high-performance unique processing units in Verilog and VHDL.
+            </p>
+        </div>
+        <div class="section-column">
+            <h1 style="font-size: 30px;">Project Leadership</h1>
+            <p class="section-text">_____________________</p>
+            <p class="section-text">
+              Streamline and execute the design process efficiently, as well as directing teams to achieve design goals.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="experience-container">
+      <div class="experience-column">
+        <h1 style="font-size: 60px;padding-bottom: 2%;">Languages, Frameworks and Platforms</h1>
+        <div style="padding-bottom: 1%;">
+          <button class="btn btn-lg experience-text" disabled>C/C++</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Arduino</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Python</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>VHDL/Verilog</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Java/Javascript</button>
+        </div>
+        <div>
+          <button class="btn btn-lg experience-text" disabled>MATLAB</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>HTML/CSS</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>SQL</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>CUDA</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Processing</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ending-container">
+      <div class="ending-column" style="background-color: #323232; color: #e9e2cc;; text-align: left;">
+          <h1 style="font-size: 55px;">My Philosophy</h1>
+          <br>
+          <p class="ending-text">
+            In everything I do, I aim to develop technology that not only challenges the limits of possibility but also makes a meaningful impact on everyday life.
+            I believe that the intersection of hardware and software is where some of the most exciting innovations happen,
+            and I’m dedicated to contributing to that space by developing solutions that are both powerful and elegant.
+          </p>
+      </div>
+      <div class="ending-column" style="background-color: #e9e2cc; text-align: right;">
+          <h1 style="font-size: 55px;">Let's Connect!</h1>
+          <br>
+          <p class="ending-text">
+            I'm always looking for new challenges and opportunities to collaborate.
+            Feel free to email or text me if you want to connect.
+            <br><br>
+            Email: sadofskypaul@gmail.com<br>
+            Phone: (516) 695-5663
+          </p>
+      </div>
+    </div>
   </body>
 </html>

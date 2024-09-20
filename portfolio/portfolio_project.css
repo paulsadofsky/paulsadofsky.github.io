@@ -110,7 +110,7 @@ nav {
 }
 
 .dropdown-menu {
-  background-color: #32323254;
+  background-color: #323232;
   border-radius: 20px;
   color: whitesmoke;
   opacity: 0;
@@ -272,7 +272,7 @@ a.dropdown-item {
   --slides-in-view: 4;
   --slide-width: 25%;
   --slide-height: 100%;
-  --iteration-time: 15s;
+  --iteration-time: 20s;
 }
 
 @keyframes scroll {
