@@ -272,7 +272,7 @@ a.dropdown-item {
   --slides-in-view: 4;
   --slide-width: 25%;
   --slide-height: 100%;
-  --iteration-time: 20s;
+  --iteration-time: 40s;
 }
 
 @keyframes scroll {
