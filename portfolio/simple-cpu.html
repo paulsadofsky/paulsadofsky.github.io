@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <title>Paul Sadofsky - Rock, Paper, Scissors!</title>
+    <title>Paul Sadofsky - Simple VHDL CPU</title>
 
     <link rel="stylesheet" href="portfolio_project.css">
   </head>
@@ -47,7 +47,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="/portfolio/robotdog">Neuromorphic Robot Dog</a>
                 <a class="dropdown-item" href="/portfolio/budgetting-software">GNPD Budgetting Database/Website</a>
-                <a class="dropdown-item" href="/portfolio/RPS">Rock, Paper, Scissors!</a>
+                <a class="dropdown-item" href="/portfolio/simple-cpu">VHDL CPU</a>
                 <a class="dropdown-item" href="/portfolio/MC">Minecraft 3-bit Multiplier</a>
                 <a class="dropdown-item" href="/portfolio/ledwall">LED Wall</a>
               </div>
@@ -61,7 +61,7 @@
       </div>
     </nav>
     <div class="fade-content text-block">
-      <h1 class="display-5 nametitle">Rock, Paper, Scissors!</h1>
+      <h1 class="display-5 nametitle">Simple VHDL CPU</h1>
       <h1 class="display-5 subtitle">Personal Project</h1>
     </div>
 
@@ -71,45 +71,45 @@
           <div class="col-12">
             <div class="carousel__wrapper">
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/bittle-photo-2.png"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu2.png">
               </div>
 
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/fpga.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu3.jpg">
               </div>
     
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/spiking.png"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu4.jpg">
               </div>
 
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/bittle-photo-1.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu5.jpg">
               </div>
     
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/arduino.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu6.png">
               </div>
     
               <!--#### repeat ####-->
               
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/bittle-photo-2.png"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu2.png">
               </div>
 
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/fpga.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu3.jpg">
               </div>
     
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/spiking.png"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu4.jpg">
               </div>
 
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/bittle-photo-1.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu5.jpg">
               </div>
     
               <div class="carousel__slide">
-                <!-- <img class="carousel__image" src="../images/arduino.jpg"> -->
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu6.png">
               </div>
             </div>
           </div>
@@ -122,21 +122,21 @@
           <h1 style="font-size: 45px;">Project Description</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            ...
+            This project's aim was to implement a simple RISC-V based CPU in Verilog and run the sythesized design on an Intel MAX10 FPGA.
           </p>
       </div>
       <div class="project-column">
           <h1 style="font-size: 45px;">Project Goals</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            ...
+            The goal of this project was to further my understanding of microarchitecture, Verilog desing, and RISC-based processors.
           </p>
       </div>
       <div class="project-column">
           <h1 style="font-size: 45px;">Group Members</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            ... 
+            This project was entirely executed by myself, with supervision and assistance from my university's faculty.
           </p>
       </div>
     </div>
@@ -145,11 +145,12 @@
       <div class="results-column">
           <h1 style="font-size: 90px;">Results</h1>
           <p class="results-text">
-            ...
+            The project result in a successful VHDL implementation of a 9-bit single-cycle CPU with a single-tier cache. It is capable of executing four opcodes and has 8 available general purpose registers.
+            Currently, this project is in the processes of being largely expanded into a pipelined Verilog 32-bit CPU capable of supporting over 40 opcodes and with a multi-tiered cache. Additionally, over 10 pages of documentation was produced for this implementation.
           </p>
       </div>
       <div class="results-gif-column">
-        <!-- <img src="../images/robot-dog.gif"> -->
+        <img src="../images/portfolio-cpu/cpu1.png">
       </div>
     </div>
 
@@ -157,18 +158,18 @@
       <div class="experience-column">
         <h1 style="font-size: 70px;padding-bottom: 2%;">Skills Learned</h1>
         <div style="padding-bottom: 1%;">
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button>
+          <button class="btn btn-lg experience-text" disabled>FPGAs</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Microarchitecture Design</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>RISC-V Architecture</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>VHDL</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>HDL Design</button>
         </div>
         <div>
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>...</button>
+          <button class="btn btn-lg experience-text" disabled>Intel Quartus</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>CPU Logic Design</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Dataflow</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Code Organization</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Code Documentation</button>
         </div>
       </div>
     </div>
