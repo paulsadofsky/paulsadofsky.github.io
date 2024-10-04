@@ -372,3 +372,5 @@ a.dropdown-item {
 .ending-text {
   font-size: 20px;
 }
+
+.aboutdelay { animation-delay: 0.1s !important; }
