@@ -181,13 +181,6 @@
     height: 200px;
     padding-top: 4%;
     width: 65%;
-  
-    .btn-quick{
-      position: relative;
-      opacity: 0;
-      transition: 0.4s;
-      top: -20px;
-    }  
   }
 
   @keyframes fadeOutAnimation {
