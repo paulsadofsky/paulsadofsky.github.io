@@ -89,6 +89,9 @@
             <button onclick="removeContact();" class="btn btn-lg btn-quick">Return</button>
         </div>
       </div>
+      <div class="fade-content text-block portfolio-text" id="portfolio-text" style="display: none;">
+        <h1 class="display-5 nametitle" style="color: rgba(245, 245, 245, 0.85); font-size: 40px;">This website was entirely designed and crafted myself, no templates or external tools were used.</h1>
+      </div>
     </div>
   </body>
 
@@ -102,8 +105,26 @@
       $('.contact-text').hide();
     }
 
+    function showPortfolio(){
+      $('.main-text').hide();
+      $('.portfolio-text').show();
+      setTimeout(function() { fadeOut(); }, 3000);
+      setTimeout(function() { removePortfolio(); }, 4000);
+    }
+    function fadeOut(){
+      document.getElementById('portfolio-text').style.animation="fadeOutAnimation ease 1s";
+    }
+    function removePortfolio(){
+      $('.main-text').show();
+      $('.portfolio-text').hide();
+    }
+
     if (location.href == 'https://paulsadofsky.com/#contact') {
       showContact();
+    }
+
+    if (location.href == 'https://paulsadofsky.com/#portfolio') {
+      showPortfolio();
     }
   </script>
 </html>
