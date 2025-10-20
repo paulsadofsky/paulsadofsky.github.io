@@ -1,8 +1,8 @@
-@media (min-height: 900px) {
+/* @media (min-height: 900px) {
   body {
     overflow: hidden;
   }
-}
+} */
 
 body {
   background-color: black !important;
@@ -376,7 +376,7 @@ a.dropdown-item {
 .work-w-container {
   display: flex;
   justify-content: space-between;
-  background-color: #e9e2cc;
+  background-color: whitesmoke;
   color: #323232;
 }
 
@@ -404,7 +404,7 @@ a.dropdown-item {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  color: #e9e2cc;
+  color: whitesmoke;
 }
 
 .work-b-column {

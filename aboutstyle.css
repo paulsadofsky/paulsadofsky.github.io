@@ -1,8 +1,8 @@
-@media (min-height: 900px) {
+/* @media (min-height: 900px) {
   body {
     overflow: hidden;
   }
-}
+} */
 
 body {
   background-color: black !important;
@@ -297,7 +297,7 @@ a.dropdown-item {
 }
 
 .section-title {
-  background-color: #e9e2cc;
+  background-color: whitesmoke;
   text-align: center;
   padding-top: 3%;
 }
@@ -305,7 +305,7 @@ a.dropdown-item {
 .section-container {
   display: flex;
   justify-content: space-between;
-  background-color: #e9e2cc;
+  background-color: whitesmoke;
   padding-top: 2%;
   padding-bottom: 3%;
 }
@@ -326,7 +326,7 @@ a.dropdown-item {
 
 .experience-container {
   background-color: #000000;
-  color: #e9e2cc;
+  color: whitesmoke;
   align-items: center;
   justify-items: center;
 }
@@ -341,7 +341,7 @@ a.dropdown-item {
 }
 
 .experience-text {
-  color: #e9e2cc;
+  color: whitesmoke;
   background-color: #000000;
   border-color: rgba(245, 245, 245, 0.338);
   border-width: 3px;
