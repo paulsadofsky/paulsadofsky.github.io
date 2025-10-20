@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-    <title>Paul Sadofsky - Minecraft Multiplier</title>
+    <title>Paul Sadofsky - Simple VHDL CPU</title>
 
     <link rel="stylesheet" href="portfolio_project.css">
   </head>
@@ -59,8 +59,8 @@
       </div>
     </nav>
     <div class="fade-content text-block">
-      <h1 class="display-5 nametitle">Minecraft 3-bit Multiplier</h1>
-      <h1 class="display-5 subtitle">Personal Project</h1>
+      <h1 class="display-5 nametitle">Verilog RISC-V CPU</h1>
+      <h1 class="display-5 subtitle">Academic Term Project</h1>
     </div>
 
     <section class="carousel">
@@ -69,45 +69,45 @@
           <div class="col-12">
             <div class="carousel__wrapper">
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc1.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu2.png">
               </div>
 
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc2.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu3.jpg">
               </div>
     
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc4.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu4.jpg">
               </div>
 
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc5.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu5.jpg">
               </div>
     
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc6.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu6.png">
               </div>
     
               <!--#### repeat ####-->
               
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc1.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu2.png">
               </div>
 
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc2.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu3.jpg">
               </div>
     
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc4.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu4.jpg">
               </div>
 
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc5.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu5.jpg">
               </div>
     
               <div class="carousel__slide">
-                <img class="carousel__image" src="../images/portfolio-mc/mc6.png">
+                <img class="carousel__image" src="../images/portfolio-cpu/cpu6.png">
               </div>
             </div>
           </div>
@@ -120,23 +120,21 @@
           <h1 style="font-size: 45px;">Project Description</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            This project's aim was to conceptualize the idea of digital logic circuits to further my personal understanding of digital logic,
-            and also as part of a larger presentation to educate grade school students on the inner workings of digital logic through an accessible medium.
+            This project was completed while studying at the Korea Advanced Institute of Science and Technology (KAIST) and the aim was to design and implement a RISC-V CPU in Verilog that was both pipelined and had a single-tier cache.
           </p>
       </div>
       <div class="project-column">
           <h1 style="font-size: 45px;">Project Goals</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            The goal was to successfully implement a 3-bit by 3-bit digital circuit multiplier within the popular video game Minecraft using the redstone system,
-            which functions like electricity.
+            The goal of this project was to create a design from scratch that was synthesizable and passed implementation without timing issues, and also to gain more experience in RTL design and testing.
           </p>
       </div>
       <div class="project-column">
           <h1 style="font-size: 45px;">Group Members</h1>
           <p class="project-text">_____________________</p>
           <p class="project-text">
-            This project was entirely designed and executed by myself.
+            This project was entirely executed by myself, with supervision and assistance from KAIST faculty.
           </p>
       </div>
     </div>
@@ -145,11 +143,10 @@
       <div class="results-column">
           <h1 style="font-size: 90px;">Results</h1>
           <p class="results-text">
-            This project resulted in a successful implementation of the 3-bit by 3-bit multiplier, alongside a 10-page documentation detailing the specifics of the implementation.
-          </p>
+            The project result in a successful Verilog implementation of a 32-bit RISC-V CPU with a single-tier cache. It is capable of executing ~44 opcodes and can pipeline instructions, utilizing a branch predictor and preventing read-after-write dependencies to maximize performance.
       </div>
       <div class="results-gif-column">
-        <img src="../images/portfolio-mc/mc3.png">
+        <img src="../images/portfolio-cpu/cpu1.png">
       </div>
     </div>
 
@@ -157,16 +154,18 @@
       <div class="experience-column">
         <h1 style="font-size: 70px;padding-bottom: 2%;">Skills Learned</h1>
         <div style="padding-bottom: 1%;">
-          <button class="btn btn-lg experience-text" disabled>Digital Logic</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Logic Design</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Boolean Simplification</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Minecraft Redstone</button>
+          <button class="btn btn-lg experience-text" disabled>FPGAs</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Microarchitecture Design</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>RISC-V Architecture</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>RTL Design</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>RTL Verification</button>
         </div>
         <div>
-          <button class="btn btn-lg experience-text" disabled>Educating</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Project Design</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Project Organization</button> &emsp;
-          <button class="btn btn-lg experience-text" disabled>Documenation</button>
+          <button class="btn btn-lg experience-text" disabled>Xilinx Vivado</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>CPU Logic Design</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Pipelining</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Code Organization</button> &emsp;
+          <button class="btn btn-lg experience-text" disabled>Code Documentation</button>
         </div>
       </div>
     </div>
